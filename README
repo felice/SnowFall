@@ -1,0 +1,17 @@
+An iPhone sdk class to simulate a snow fall
+-------------------------------------------
+
+SnowFallView is a UIView subclass. Its job is to simulate a snow fall in transparency over another view. It uses CAAnimation to perform 2 animations: a vertical (transition.y) and a rotational (rotate.y) transforms.
+
+These parameters can be customized:
+
+the view size and origin
+the flake image
+the flakes range of size (min-max)
+the flakes count
+the animations speed range (min-max) and repeat count.
+
+Source code can be modified and adapted to any liking. An example app is shown with the code.
+
+Download at github : https://github.com/felice/SnowFallView
+
